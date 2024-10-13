@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Menu from "../../components/Menu"
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {

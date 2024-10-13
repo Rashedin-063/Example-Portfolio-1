@@ -14,9 +14,14 @@ module.exports = {
           '0%, 100%': { opacity: 1 },
           '50%': { opacity: 0.3 },
         },
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       },
       animation: {
         'pulse-3': 'pulse 3s ease-in-out 3',
+        marquee: 'scroll 15s linear infinite',
       },
     },
   },
