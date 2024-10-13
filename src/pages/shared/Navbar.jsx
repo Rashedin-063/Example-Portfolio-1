@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='text-center h-20'>
+    <div className='text-center h-20 mr-8'>
       <div className='navbar'>
         <div className='navbar-start'>
           <div className='dropdown'>

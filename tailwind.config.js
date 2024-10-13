@@ -9,6 +9,15 @@ module.exports = {
       sevillana: "'Sevillana', cursive",
     },
     extend: {
+      keyframes: {
+        pulse: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0.3 },
+        },
+      },
+      animation: {
+        'pulse-3': 'pulse 3s ease-in-out 3',
+      },
     },
   },
   plugins: [require('daisyui')],

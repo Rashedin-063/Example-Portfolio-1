@@ -6,7 +6,7 @@ import RightSidebar from './../pages/shared/RightSidebar';
 
 const Root = () => {
   return (
-    <div className='bg-blue-950 bg-opacity-45 max-w-7xl mx-auto lg:px-4 font-chakraPatch'>
+    <div className='bg-gradient-to-tl from-blue-950 via blue-950 to-blue-900 bg-opacity-45 max-w-7xl mx-auto lg:px-4 font-chakraPatch'>
       <Navbar />
       <div className='flex min-h-[80vh] border-2'>
         <LeftSidebar />
