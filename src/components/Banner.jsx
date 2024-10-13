@@ -1,7 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter';
-import BannerBg from '../assets/bannerImg.jpg'
-import Profile from '../assets/profileImage.jpg'
-
+import BannerBg from '../assets/bannerImg.jpg';
+import Profile from '../assets/profileImage.jpg';
 
 const Banner = () => {
   return (
@@ -24,7 +23,7 @@ const Banner = () => {
         <h2 className='text-4xl font-semibold'>Hello there,</h2>
         <h2 className='text-4xl font-semibold'>
           This is{' '}
-          <span className='text-green-600 font-bold text-5xl'>
+          <span className='text-green-lantern font-bold text-5xl'>
             Rashedin Islam
           </span>
         </h2>
@@ -52,11 +51,11 @@ const Banner = () => {
       >
         <img
           src={Profile}
-          className='w-48 h-48 lg:w-60 lg:h-60 rounded-full outline outline-4 object-cover p-2 outline-green-600'
+          className='w-48 h-48 lg:w-60 lg:h-60 rounded-full outline outline-4 object-cover p-2 outline-green-lantern'
           alt=''
         />
       </div>
     </div>
   );
-}
-export default Banner
+};
+export default Banner;

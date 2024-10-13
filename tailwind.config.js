@@ -27,7 +27,7 @@ module.exports = {
         'yellow-sunshine': '#fff487',
         'midnight-gray': '	##3c3c3c',
         'deep-ocean': '#004080',
-        'green-lantern': '#046645',
+        'green-lantern': '#16A240',
         'pure-white': '#E5E7EB',
         'charcoal-gray': '#000000',
       },

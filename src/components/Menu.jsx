@@ -2,10 +2,8 @@ import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 
-const Menu = ({items = []}) => { 
-  
-  console.log(items)
-  
+const Menu = ({ items = [] }) => {
+  console.log(items);
 
   return (
     <Fade cascade damping={0.3}>
@@ -16,7 +14,7 @@ const Menu = ({items = []}) => {
               to={to}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-base lg:text-lg rounded-none hover:bg-transparent text-green-600 font-semibold animate-pulse-3'
+                  ? 'text-base lg:text-lg rounded-none hover:bg-transparent text-green-lantern font-semibold animate-pulse-3'
                   : 'hover:transition hover:duration-700   hover:bg-transparent hover:rounded-none hover:font-semibold hover:-translate-y-1'
               }
             >
@@ -31,6 +29,6 @@ const Menu = ({items = []}) => {
 
 Menu.propTypes = {
   items: PropTypes.array,
-}
+};
 
 export default Menu;

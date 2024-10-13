@@ -22,13 +22,12 @@ const SkillCard = ({ skill }) => {
   );
 };
 
-
 const Skills = () => {
   return (
     <section className='py-12 bg-slate-950 rounded-xl border-4 w-[90vw] mx-auto'>
       <div className='max-w-5xl mx-auto'>
-        <h2 className='text-3xl font-bold text-center text-green-600 mb-8 font-sevillana'>
-         My Skills
+        <h2 className='text-3xl font-bold text-center text-green-lantern mb-8 font-sevillana'>
+          My Skills
         </h2>
 
         {/* Marquee for skills */}

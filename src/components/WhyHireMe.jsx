@@ -2,7 +2,7 @@ const WhyHireMe = () => {
   return (
     <section className=' py-12 px-6 lg:px-20'>
       <div>
-        <h2 className='text-3xl font-bold text-center text-green-600 mb-8 font-playWrite'>
+        <h2 className='text-3xl font-bold text-center text-green-lantern mb-8 font-playWrite'>
           Why Should You Hire Me?
         </h2>
         <div className='space-y-6 text-white leading-relaxed font-light font-josefin px-4'>
