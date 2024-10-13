@@ -8,7 +8,7 @@ const Root = () => {
   return (
     <div className='bg-gradient-to-tl from-blue-950 via blue-950 to-blue-900  max-w-7xl mx-auto lg:px-4 font-chakraPatch'>
       <Navbar />
-      <div className='flex min-h-[80vh]'>
+      <div className='flex min-h-[75vh]'>
         <LeftSidebar />
         <div className='w-[calc(100vw-20px)]'>
           <Outlet />
