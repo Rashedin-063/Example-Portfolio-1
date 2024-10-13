@@ -9,14 +9,6 @@ module.exports = {
       sevillana: "'Sevillana', cursive",
     },
     extend: {
-      colors: {
-        'faded-pearl': '#E6DFAF',
-        'midnight-gray': '	##3c3c3c',
-        'deep-ocean': '#004080',
-        'green-lantern': '#004d25',
-        'pure-white': '#FFFFFF',
-        'charcoal-gray': '#000000',
-      },
     },
   },
   plugins: [require('daisyui')],
