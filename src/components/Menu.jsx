@@ -9,7 +9,7 @@ const Menu = ({items = []}) => {
 
   return (
     <Fade cascade damping={0.3}>
-      <ul className='xl:flex xl:items-center xl:gap-3 text-sm md:text-base space-y-4 xl:space-y-0 font-playWrite italic'>
+      <ul className='lg:flex lg:items-center lg:gap-3 text-sm md:text-base space-y-4 lg:space-y-0 font-playWrite italic'>
         {items.map(({ to, label }) => (
           <li key={to}>
             <NavLink

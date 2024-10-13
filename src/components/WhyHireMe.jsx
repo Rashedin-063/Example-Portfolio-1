@@ -34,7 +34,7 @@ const WhyHireMe = () => {
               appealing, responsive layouts that enhance user engagement.
             </li>
             <li>
-              <strong>Backend Proficiency:</strong> Whether it's building{' '}
+              <strong>Backend Proficiency:</strong> Whether it&apos;s building{' '}
               <strong>RESTful APIs</strong> with Express or managing complex
               data with <strong>MongoDB</strong>, I ensure secure and efficient
               backend logic, keeping a keen eye on performance.
@@ -47,7 +47,7 @@ const WhyHireMe = () => {
               knowledge.
             </li>
             <li>
-              <strong>Strong Work Ethic:</strong> I'm always committed to
+              <strong>Strong Work Ethic:</strong> I&apos;m always committed to
               learning and growing, as shown by my continuous efforts to improve
               my skills and explore new technologies. I bring the same
               dedication to every project I work on.

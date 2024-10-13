@@ -13,11 +13,17 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='text-center h-20 mr-8'>
+    <div className='text-center h-20 mr-8 text-yellow-sunshine'>
       <div className='navbar'>
+        {/* navbar start */}
         <div className='navbar-start'>
-          <div className='dropdown'>
-            <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden'>
+          <div className='dropdown lg:hidden'>
+            {/* icon */}
+            <div
+              tabIndex={0}
+              role='button'
+              className='hover:bg-gray-800 p-2 hover:rounded-full'
+            >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-8 w-8'
@@ -35,7 +41,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content z-[1] mt-3 shadow border-2 w-40 rounded-xl bg-blue-800 bg-opacity-25'
+              className='menu menu-sm dropdown-content z-[1] mt-3 shadow border-2 w-40 rounded-xl bg-blue-800 bg-opacity-25 ml-10'
             >
               <Menu items={items} />
             </ul>

@@ -1,4 +1,5 @@
 
+
 const marqueeStyle = {
   display: 'flex',
   animation: 'scroll 15s linear infinite',
@@ -33,14 +34,14 @@ const SkillCard = ({ skill }) => {
 const Skills = () => {
   return (
     <section className='py-12 bg-gray-100'>
-      <div className='max-w-7xl mx-auto'>
+      <div className=''>
         <h2 className='text-3xl font-bold text-center text-blue-900 mb-8'>
           Skills
         </h2>
 
         {/* Marquee Wrapper */}
         <div className='overflow-hidden'>
-          <div className='flex gap-6 whitespace-nowrap' style={marqueeStyle}>
+          <div className='flex gap-6 w-3/4 mx-auto whitespace-nowrap border-4 border-white' style={marqueeStyle}>
             {skills.map((skill) => (
               <SkillCard key={skill} skill={skill} />
             ))}
