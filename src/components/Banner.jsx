@@ -5,7 +5,7 @@ import Profile from '../assets/profileImage.jpg';
 const Banner = () => {
   return (
     <div
-      className='h-[550px] flex flex-col-reverse lg:flex-row items-center lg:justify-between justify-center gap-x-0 gap-y-12 lg:px-24 text-gray-200 rounded-xl'
+      className='h-[550px] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-start lg:ml-4 gap-12 lg:px-24 text-gray-200 rounded-xl'
       style={{
         backgroundImage: `url(${BannerBg})`,
         backgroundPosition: 'center',

@@ -10,11 +10,8 @@ const About = () => {
     >
       <SectionTitle title='About Me' />
 
-      <div>
-        <div>
-          
-        </div>
-        <div className=' border border-yellow-sunshine shadow-2xl p-4 rounded-xl text-pure-white'>
+    
+        <div className=' border border-yellow-sunshine shadow-2xl p-4 rounded-xl text-pure-white mx-12 lg:mx-36'>
           I am Rashedin Islam, a passionate junior MERN Stack developer with
           hands-on experience in building and maintaining full-stack web
           applications. With a strong foundation in React, Node.js, Express, and
@@ -22,7 +19,6 @@ const About = () => {
           continuously aim to enhance my skills by working on real-world
           projects and exploring the latest technologies.
         </div>
-      </div>
     </div>
   );
 }
