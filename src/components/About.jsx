@@ -1,5 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import AnimatedText from "./SpringWeb";
+import AnimatedText2 from "./GsapText";
 
 const About = () => {
   return (
@@ -11,8 +12,9 @@ const About = () => {
     >
       <SectionTitle title='About Me' />
 
-      <div className="mb-4">
+      <div className="mb-4 space-y-2">
         <AnimatedText />
+        <AnimatedText2/>
       </div>
       <div className=' border border-yellow-sunshine shadow-2xl p-4 rounded-xl text-pure-white mx-12 lg:mx-36'>
         I am Rashedin Islam, a passionate junior MERN Stack developer with
