@@ -16,7 +16,7 @@ const AnimatedText = () => {
 
   return (
     <h1 className='text-green-lantern'>
-      <TextTransition springConfig={presets.slow}>
+      <TextTransition direction='down' springConfig={presets.slow}>
         {phrases[index]}
       </TextTransition>
     </h1>

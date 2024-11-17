@@ -16,10 +16,13 @@ const skills = [
 
 // eslint-disable-next-line react/prop-types
 const SkillCard = ({ skill }) => {
+
   return (
-    <div className='bg-indigo-950 text-white py-4 px-6 rounded-lg shadow-lg mx-4 flex-shrink-0'>
-      <ImImage/>
-      <p className='text-lg font-semibold'>{skill}</p>
+    <div>
+      <div className='bg-indigo-950 text-white py-4 px-6 rounded-lg shadow-lg mx-4 flex-shrink-0'>
+        <ImImage />
+        <p className='text-lg font-semibold'>{skill}</p>
+      </div>
     </div>
   );
 };
