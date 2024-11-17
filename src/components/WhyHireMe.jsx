@@ -1,3 +1,5 @@
+import AnimatedText from "./AnimatedText";
+
 const WhyHireMe = () => {
   return (
     <section className=' py-12 px-6 lg:px-20'>
@@ -5,6 +7,10 @@ const WhyHireMe = () => {
         <h2 className='text-3xl font-bold text-center text-green-lantern mb-8 font-playWrite'>
           Why Should You Hire Me?
         </h2>
+        <div className='text-2xl font-bold text-yellow-sunshine mb-8 font-playWrite flex gap-4 justify-center items-center'>
+          <h2>I am</h2>
+          <AnimatedText />
+        </div>
         <div className='space-y-6 text-white leading-relaxed font-light font-josefin px-4'>
           <p>
             As a <strong>React & Node.js Enthusiast</strong>, I bring a deep
