@@ -1,4 +1,4 @@
-# This is a portfile project for practice
+# This is a portfolio project for practice
 
 ## Technologies
 - HTML,
